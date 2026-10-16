@@ -1,9 +1,11 @@
 import base64
 import datetime
+import hashlib
 import json
 import math
 import os
 import subprocess
+import sys
 import urllib.request
 from html import escape
 from pathlib import Path
@@ -491,20 +493,27 @@ def fetch_stats(cached):
 
 
 # Main
+def meaningful(s):
+    return {k: v for k, v in s.items() if k != "days"}
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     cache = ROOT / "data/stats.json"
     cached = json.loads(cache.read_text()) if cache.exists() else None
     try:
         s = fetch_stats(cached)
-        if s:
-            cache.write_text(json.dumps(s, indent=1))
     except Exception as e:
         print("stats failed:", e)
         s = None
     if s is None:
-        s = cached
+        s = dict(cached)
     avatar = avatar_data()
+    s["avatar"] = hashlib.sha1(avatar.encode()).hexdigest()[:12] if avatar else (cached or {}).get("avatar")
+    if "--if-changed" in sys.argv and cached and meaningful(s) == meaningful(cached):
+        print("no changes")
+        return
+    cache.write_text(json.dumps(s, indent=1))
     for theme in ("light", "dark"):
         p = PALETTE[theme]
         files = {

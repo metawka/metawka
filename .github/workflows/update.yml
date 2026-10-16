@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
 
       - name: Generate
-        run: python generate.py
+        run: python generate.py ${{ github.event_name == 'schedule' && '--if-changed' || '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
