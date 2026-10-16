@@ -15,46 +15,35 @@ OUT = ROOT / "assets"
 USER = "metawka"
 W = 840
 
-PALETTE = json.loads((ROOT / "data/palette.json").read_text())
-ICONS = json.loads((ROOT / "data/icons.json").read_text())
-METRICS = json.loads((ROOT / "data/metrics.json").read_text())
+PALETTE = json.loads((ROOT / "data/palette.json").read_text(encoding="utf-8"))
+ICONS = json.loads((ROOT / "data/icons.json").read_text(encoding="utf-8"))
+METRICS = json.loads((ROOT / "data/metrics.json").read_text(encoding="utf-8"))
 FONT = base64.b64encode((ROOT / "fonts/GoogleSansFlex-subset.woff2").read_bytes()).decode()
+FONT_CYR = base64.b64encode((ROOT / "fonts/RobotoFlex-cyrillic.woff2").read_bytes()).decode()
 
-PROJECTS = [
-    {
-        "repo": "711zip",
-        "title": "711zip",
-        "text": "Windows 11 style front end for 7-Zip. WinUI 3, Mica, light and dark themes.",
-        "tags": ["C#", "WinUI 3"],
-        "icon": "folder_zip",
-        "shape": "cookie",
-    },
-    {
-        "repo": "Win-Activity-Tracker",
-        "title": "Win Activity Tracker",
-        "text": "Local screen time tracker with a Task Manager style dashboard. No account, no telemetry.",
-        "tags": ["C#", "WinUI 3"],
-        "icon": "monitoring",
-        "shape": "clover",
-    },
-    {
-        "repo": "yandex-music-rpc",
-        "title": "Yandex Music RPC",
-        "text": "Discord Rich Presence for the Yandex Music desktop app. Native, no client patching.",
-        "tags": ["Rust"],
-        "icon": "music_note",
-        "shape": "sunny",
-    },
-    {
-        "repo": "SuperDictate-win",
-        "title": "SuperDictate",
-        "text": "Fast, private, local dictation for Windows. Speech to text without the cloud.",
-        "tags": ["Python"],
-        "icon": "mic",
-        "shape": "flower",
-        "fork": True,
-    },
+SHAPES = ["cookie", "clover", "sunny", "flower"]
+
+ICON_RULES = [
+    (("zip", "archive", "7-zip", "rar"), "folder_zip"),
+    (("music", "audio", "spotify", "player", "sound"), "music_note"),
+    (("dictat", "speech", "voice", "whisper", "mic"), "mic"),
+    (("tracker", "screen time", "activity", "monitor", "stats"), "monitoring"),
+    (("discord",), "brand:discord"),
+    (("game", "minecraft", "mod "), "sports_esports"),
+    (("site", "website", "web ", "landing", "portfolio"), "language"),
+    (("launcher", "installer"), "deployed_code"),
+    (("theme", "design", "ui kit", "palette"), "palette"),
+    (("terminal", "cli", "shell", "dotfiles", "hyprland"), "terminal"),
 ]
+
+LANG_ICONS = {
+    "Rust": "brand:rust",
+    "Python": "brand:python",
+    "TypeScript": "brand:typescript",
+    "JavaScript": "code",
+    "C#": "desktop_windows",
+    "Java": "brand:openjdk",
+}
 
 STACK = [
     ("Main", [("brand:typescript", "TypeScript"), ("brand:python", "Python"), ("brand:rust", "Rust"), ("widgets", "WinUI 3")]),
@@ -145,9 +134,12 @@ def txt(x, y, s, size, fill, weight=400, cls="", delay=None, anchor="start", ext
 
 
 def svg(w, h, body, title):
+    cyr = ""
+    if any("\u0400" <= c <= "\u04ff" for c in body):
+        cyr = f"@font-face{{font-family:R;src:url(data:font/woff2;base64,{FONT_CYR}) format('woff2');font-weight:400 800}}"
     css = f"""
 @font-face{{font-family:G;src:url(data:font/woff2;base64,{FONT}) format('woff2');font-weight:400 800}}
-text{{font-family:G,'Google Sans','Segoe UI',Roboto,sans-serif;font-variation-settings:'ROND' 100}}
+{cyr}text{{font-family:G,R,'Google Sans','Segoe UI',Roboto,sans-serif;font-variation-settings:'ROND' 100}}
 .up{{animation:up .8s cubic-bezier(.05,.7,.1,1) both}}
 .pop{{transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.34,1.56,.64,1) both}}
 .fade{{animation:fade .9s ease both}}
@@ -286,9 +278,34 @@ def stack(p):
     return svg(W, h, "".join(b), "Tech stack")
 
 
-def card(p, proj, stars, index):
+def pick_icon(pin):
+    hay = f" {pin['name']} {pin['text']} {' '.join(pin['topics'])} ".lower().replace("-", " ")
+    for keys, name in ICON_RULES:
+        if any(k in hay for k in keys):
+            return name
+    return LANG_ICONS.get(pin["language"], "code")
+
+
+def pin_tags(pin):
+    tags = [pin["language"]] if pin["language"] else []
+    hay = f"{pin['text']} {' '.join(pin['topics'])}".lower()
+    if "winui" in hay and "WinUI 3" not in tags:
+        tags.append("WinUI 3")
+    return tags
+
+
+def card(p, pin, index):
     w, h = 412, 232
     d0 = 0.08 * index
+    proj = {
+        "title": pin["name"],
+        "text": pin["text"] or "No description yet.",
+        "tags": pin_tags(pin),
+        "icon": pick_icon(pin),
+        "shape": SHAPES[index % len(SHAPES)],
+        "fork": pin["fork"],
+    }
+    stars = pin["stars"]
     b = [f'<rect width="{w}" height="{h}" rx="28" fill="{p["surfaceContainerHigh"]}"/>']
     b.append(f'<g class="pop" style="animation-delay:{d0:.2f}s"><path class="spin" d="{shape(proj["shape"], 52, 52, 30)}" fill="{p["primaryContainer"]}"/></g>')
     b.append(f'<g class="pop" style="animation-delay:{d0 + .08:.2f}s">{icon(proj["icon"], 39, 39, 26, p["onPrimaryContainer"])}</g>')
@@ -469,6 +486,8 @@ def fetch_stats(cached):
     u = graphql(t, """query($login:String!){user(login:$login){
       followers{totalCount}
       repositories(ownerAffiliations:OWNER,privacy:PUBLIC,first:100){totalCount nodes{name isFork stargazerCount}}
+      pinnedItems(first:6,types:REPOSITORY){nodes{... on Repository{name url description isFork stargazerCount
+        primaryLanguage{name} repositoryTopics(first:10){nodes{topic{name}}}}}}
       contributionsCollection{contributionCalendar{totalContributions
         weeks{contributionDays{contributionCount date weekday}}}}}}""", {"login": USER})["user"]
     repos = u["repositories"]["nodes"]
@@ -488,8 +507,46 @@ def fetch_stats(cached):
         "followers": u["followers"]["totalCount"],
         "languages": all_languages(t) or (cached or {}).get("languages", []),
         "days": days,
-        "per_repo": {r["name"]: r["stargazerCount"] for r in repos},
+        "pins": [
+            {
+                "name": n["name"],
+                "url": n["url"],
+                "text": (n["description"] or "").strip(),
+                "fork": n["isFork"],
+                "stars": n["stargazerCount"],
+                "language": (n["primaryLanguage"] or {}).get("name"),
+                "topics": [t["topic"]["name"] for t in n["repositoryTopics"]["nodes"]],
+            }
+            for n in u["pinnedItems"]["nodes"]
+            if n
+        ],
     }
+
+
+# Readme
+def slug(name):
+    return "".join(c if c.isalnum() else "-" for c in name.lower()).strip("-")
+
+
+def pic(name, alt, width="100%"):
+    return (f'<picture><source media="(prefers-color-scheme: dark)" srcset="assets/{name}-dark.svg">'
+            f'<img src="assets/{name}-light.svg" width="{width}" alt="{escape(alt)}"></picture>')
+
+
+def readme(pins):
+    cards = [f'<a href="{pin["url"]}">{pic("project-" + slug(pin["name"]), pin["name"], "49%")}</a>' for pin in pins]
+    rows = ["&nbsp;".join(cards[i:i + 2]) for i in range(0, len(cards), 2)]
+    blocks = [
+        pic("hero", f"Hi, I'm {USER}"),
+        pic("about", "About me"),
+        pic("stack", "Tech stack"),
+        *rows,
+        pic("stats", "GitHub activity"),
+        pic("wave", ""),
+        f'<a href="https://metawka.xyz">{pic("button-site", "metawka.xyz", "auto")}</a>&nbsp;&nbsp;'
+        f'<a href="https://github.com/{USER}?tab=repositories">{pic("button-repos", "All repositories", "auto")}</a>',
+    ]
+    return '<div align="center">\n\n' + "\n\n".join(blocks) + "\n\n</div>\n"
 
 
 # Main
@@ -500,7 +557,7 @@ def meaningful(s):
 def main():
     OUT.mkdir(exist_ok=True)
     cache = ROOT / "data/stats.json"
-    cached = json.loads(cache.read_text()) if cache.exists() else None
+    cached = json.loads(cache.read_text(encoding="utf-8")) if cache.exists() else None
     try:
         s = fetch_stats(cached)
     except Exception as e:
@@ -523,12 +580,17 @@ def main():
             "stats": stats(p, s),
             "wave": wave(p),
         }
-        for i, proj in enumerate(PROJECTS):
-            files[f"project-{proj['repo'].lower()}"] = card(p, proj, s["per_repo"].get(proj["repo"]), i)
+        for i, pin in enumerate(s["pins"]):
+            files[f"project-{slug(pin['name'])}"] = card(p, pin, i)
         for key, label, ic, kind in BUTTONS:
             files[f"button-{key}"] = button(p, label, ic, kind)
         for name, content in files.items():
             (OUT / f"{name}-{theme}.svg").write_text(content, encoding="utf-8")
+    keep = {f"project-{slug(pin['name'])}" for pin in s["pins"]}
+    for old in OUT.glob("project-*.svg"):
+        if old.stem.rsplit("-", 1)[0] not in keep:
+            old.unlink()
+    (ROOT / "README.md").write_text(readme(s["pins"]), encoding="utf-8")
     print("done")
 
 
