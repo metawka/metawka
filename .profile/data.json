@@ -1,7 +1,7 @@
 {
- "key": "c69443",
+ "key": "8e67725c",
  "stars": 2,
- "contributions": 50,
+ "contributions": 54,
  "repos": 7,
  "followers": 1,
  "languages": [
@@ -15,7 +15,7 @@
   ],
   [
    "TypeScript",
-   141455
+   143394
   ],
   [
    "Python",
@@ -23,7 +23,7 @@
   ],
   [
    "CSS",
-   24103
+   24692
   ],
   [
    "Rust",
@@ -141,7 +141,7 @@
     "today": false
    },
    {
-    "c": 11,
+    "c": 15,
     "day": 17,
     "today": true
    }
@@ -153,16 +153,19 @@
  },
  "pins": [
   {
-   "name": "SuperDictate-win",
-   "url": "https://github.com/metawka/SuperDictate-win",
-   "text": "Fast, private, local dictation for Windows.",
-   "fork": true,
+   "name": "expressive-profile",
+   "url": "https://github.com/metawka/expressive-profile",
+   "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
+   "fork": false,
    "stars": 0,
-   "language": "Python",
+   "language": "JavaScript",
    "topics": [
-    "dictation",
-    "speech-to-text",
-    "windows"
+    "github-actions",
+    "github-profile",
+    "material-design",
+    "material-you",
+    "profile-readme",
+    "readme-generator"
    ]
   },
   {
@@ -178,6 +181,19 @@
     "rust",
     "windows",
     "yandex-music"
+   ]
+  },
+  {
+   "name": "SuperDictate-win",
+   "url": "https://github.com/metawka/SuperDictate-win",
+   "text": "Fast, private, local dictation for Windows.",
+   "fork": true,
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "dictation",
+    "speech-to-text",
+    "windows"
    ]
   },
   {
@@ -214,22 +230,6 @@
     "windows",
     "winui3",
     "zip"
-   ]
-  },
-  {
-   "name": "expressive-profile",
-   "url": "https://github.com/metawka/expressive-profile",
-   "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
-   "fork": false,
-   "stars": 0,
-   "language": "JavaScript",
-   "topics": [
-    "github-actions",
-    "github-profile",
-    "material-design",
-    "material-you",
-    "profile-readme",
-    "readme-generator"
    ]
   }
  ],
