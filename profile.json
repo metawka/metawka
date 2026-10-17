@@ -127,11 +127,11 @@
   "projects": {
     "source": "manual",
     "repos": [
-      "711zip",
+      "expressive-profile",
       "yandex-music-rpc",
-      "Win-Activity-Tracker",
       "SuperDictate-win",
-      "expressive-profile"
+      "Win-Activity-Tracker",
+      "711zip"
     ],
     "overrides": {},
     "empty": "No description yet.",
