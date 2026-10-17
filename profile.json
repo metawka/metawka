@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "login": "metawka",
+  "seed": "#FF5CA8",
+  "scheme": "tonalSpot",
+  "motion": true,
+  "iconFill": true,
+  "order": [
+    "hero",
+    "socials",
+    "about",
+    "stack",
+    "projects",
+    "stats",
+    "streak",
+    "wave",
+    "buttons"
+  ],
+  "hidden": [],
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "",
+    "subtitle": "Frondend developer, some kinda web-designer.\nSometimes few small Windows utilities.",
+    "typing": true,
+    "avatarShape": "cookie12",
+    "chips": [
+      {
+        "icon": "location_on",
+        "label": "KZ / Russia"
+      },
+      {
+        "icon": "code",
+        "label": "TypeScript · Python · Rust"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "items": [
+      {
+        "icon": "person",
+        "label": "16 yo. developer"
+      },
+      {
+        "icon": "code",
+        "label": "Mostly frontend, a bit of backend"
+      },
+      {
+        "icon": "palette",
+        "label": "Web, frontend and UI design"
+      },
+      {
+        "icon": "desktop_windows",
+        "label": "Sometimes few small Windows utilities."
+      }
+    ]
+  },
+  "stack": {
+    "title": "Tech stack",
+    "groups": [
+      {
+        "title": "Main",
+        "items": [
+          {
+            "icon": "brand:typescript",
+            "label": "TypeScript"
+          },
+          {
+            "icon": "brand:react",
+            "label": "React"
+          },
+          {
+            "icon": "brand:python",
+            "label": "Python"
+          },
+          {
+            "icon": "brand:rust",
+            "label": "Rust"
+          },
+          {
+            "icon": "widgets",
+            "label": "WinUI"
+          }
+        ]
+      },
+      {
+        "title": "Also",
+        "items": [
+          {
+            "icon": "brand:dotnet",
+            "label": "C#"
+          },
+          {
+            "icon": "brand:electron",
+            "label": "Electron"
+          },
+          {
+            "icon": "brand:nextdotjs",
+            "label": "Next.js"
+          },
+          {
+            "icon": "brand:tailwindcss",
+            "label": "Java"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "items": [
+          {
+            "icon": "brand:git",
+            "label": "Git"
+          },
+          {
+            "icon": "brand:figma",
+            "label": "Figma"
+          },
+          {
+            "icon": "brand:githubactions",
+            "label": "GitHub Actions"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "manual",
+    "repos": [
+      "711zip",
+      "yandex-music-rpc",
+      "Win-Activity-Tracker",
+      "SuperDictate-win"
+    ],
+    "overrides": {},
+    "empty": "No description yet.",
+    "fork": "Fork"
+  },
+  "stats": {
+    "title": "GitHub activity",
+    "stars": "Stars earned",
+    "contributions": "Contributions this year",
+    "repos": "Public repos",
+    "followers": "Followers",
+    "calendar": "Last 21 days",
+    "weekdays": "SMTWTFS",
+    "languages": "Languages across my repositories",
+    "showLanguages": true
+  },
+  "streak": {
+    "title": "Streak",
+    "current": "Current streak",
+    "longest": "Longest this year",
+    "days": "days"
+  },
+  "socials": {
+    "items": [
+      {
+        "icon": "brand:telegram",
+        "url": "https://t.me/metawka"
+      },
+      {
+        "icon": "brand:tiktok",
+        "url": "https://www.tiktok.com/@metawka_"
+      },
+      {
+        "icon": "brand:steam",
+        "url": "https://steamcommunity.com/id/metawq/"
+      }
+    ],
+    "variant": "chip",
+    "fill": "tonal",
+    "card": true
+  },
+  "buttons": {
+    "items": [
+      {
+        "icon": "language",
+        "label": "My website",
+        "url": "www.metawka.xyz",
+        "style": "filled"
+      },
+      {
+        "icon": "book_2",
+        "label": "All repositories",
+        "url": "https://github.com/metawka?tab=repositories",
+        "style": "tonal"
+      }
+    ]
+  }
+}
