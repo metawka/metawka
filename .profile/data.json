@@ -1,0 +1,320 @@
+{
+ "key": "f31b6912",
+ "stars": 2,
+ "contributions": 46,
+ "repos": 7,
+ "followers": 1,
+ "languages": [
+  [
+   "JavaScript",
+   362512
+  ],
+  [
+   "C#",
+   239450
+  ],
+  [
+   "TypeScript",
+   140670
+  ],
+  [
+   "Python",
+   26590
+  ],
+  [
+   "CSS",
+   24103
+  ],
+  [
+   "Rust",
+   23480
+  ],
+  [
+   "HTML",
+   727
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 0,
+    "day": 27,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 28,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 29,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 30,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 1,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 2,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 3,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 4,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 5,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 6,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 7,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 8,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 9,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 10,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 11,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 12,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 13,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 14,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 15,
+    "today": false
+   },
+   {
+    "c": 11,
+    "day": 16,
+    "today": false
+   },
+   {
+    "c": 7,
+    "day": 17,
+    "today": true
+   }
+  ]
+ ],
+ "streak": {
+  "current": 2,
+  "longest": 2
+ },
+ "pins": [
+  {
+   "name": "SuperDictate-win",
+   "url": "https://github.com/metawka/SuperDictate-win",
+   "text": "Fast, private, local dictation for Windows.",
+   "fork": true,
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "dictation",
+    "speech-to-text",
+    "windows"
+   ]
+  },
+  {
+   "name": "yandex-music-rpc",
+   "url": "https://github.com/metawka/yandex-music-rpc",
+   "text": "Discord Rich Presence для десктопной Яндекс Музыки. Нативный, без патча клиента",
+   "fork": false,
+   "stars": 0,
+   "language": "Rust",
+   "topics": [
+    "discord-rich-presence",
+    "discord-rpc",
+    "rust",
+    "windows",
+    "yandex-music"
+   ]
+  },
+  {
+   "name": "Win-Activity-Tracker",
+   "url": "https://github.com/metawka/Win-Activity-Tracker",
+   "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
+   "fork": false,
+   "stars": 0,
+   "language": "C#",
+   "topics": [
+    "activity-tracker",
+    "csharp",
+    "dotnet",
+    "productivity",
+    "screen-time",
+    "time-tracker",
+    "windows",
+    "winui3"
+   ]
+  },
+  {
+   "name": "711zip",
+   "url": "https://github.com/metawka/711zip",
+   "text": "Windows 11-style front end for 7-Zip (WinUI 3, light/dark)",
+   "fork": false,
+   "stars": 2,
+   "language": "C#",
+   "topics": [
+    "7z",
+    "7zip",
+    "archives",
+    "dotnet",
+    "win11",
+    "windows",
+    "winui3",
+    "zip"
+   ]
+  }
+ ],
+ "all": [
+  {
+   "name": "711zip",
+   "url": "https://github.com/metawka/711zip",
+   "text": "Windows 11-style front end for 7-Zip (WinUI 3, light/dark)",
+   "fork": false,
+   "stars": 2,
+   "language": "C#",
+   "topics": [
+    "7z",
+    "7zip",
+    "archives",
+    "dotnet",
+    "win11",
+    "windows",
+    "winui3",
+    "zip"
+   ]
+  },
+  {
+   "name": "expressive-profile",
+   "url": "https://github.com/metawka/expressive-profile",
+   "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
+   "fork": false,
+   "stars": 0,
+   "language": "JavaScript",
+   "topics": [
+    "github-actions",
+    "github-profile",
+    "material-design",
+    "material-you",
+    "profile-readme",
+    "readme-generator"
+   ]
+  },
+  {
+   "name": "metawka",
+   "url": "https://github.com/metawka/metawka",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "yandex-music-rpc",
+   "url": "https://github.com/metawka/yandex-music-rpc",
+   "text": "Discord Rich Presence для десктопной Яндекс Музыки. Нативный, без патча клиента",
+   "fork": false,
+   "stars": 0,
+   "language": "Rust",
+   "topics": [
+    "discord-rich-presence",
+    "discord-rpc",
+    "rust",
+    "windows",
+    "yandex-music"
+   ]
+  },
+  {
+   "name": "Win-Activity-Tracker",
+   "url": "https://github.com/metawka/Win-Activity-Tracker",
+   "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
+   "fork": false,
+   "stars": 0,
+   "language": "C#",
+   "topics": [
+    "activity-tracker",
+    "csharp",
+    "dotnet",
+    "productivity",
+    "screen-time",
+    "time-tracker",
+    "windows",
+    "winui3"
+   ]
+  },
+  {
+   "name": "SuperDictate-win",
+   "url": "https://github.com/metawka/SuperDictate-win",
+   "text": "Fast, private, local dictation for Windows.",
+   "fork": true,
+   "stars": 0,
+   "language": "Python",
+   "topics": [
+    "dictation",
+    "speech-to-text",
+    "windows"
+   ]
+  },
+  {
+   "name": "nocturne",
+   "url": "https://github.com/metawka/nocturne",
+   "text": "",
+   "fork": false,
+   "stars": 0,
+   "language": null,
+   "topics": []
+  }
+ ]
+}
