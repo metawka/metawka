@@ -2,6 +2,7 @@
   "version": 1,
   "login": "metawka",
   "seed": "#FF5CA8",
+  "seedFromAvatar": false,
   "scheme": "tonalSpot",
   "motion": true,
   "iconFill": true,
