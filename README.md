@@ -12,6 +12,8 @@
 
 <a href="https://github.com/metawka/Win-Activity-Tracker"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-win-activity-tracker-dark.svg"><img src="assets/project-win-activity-tracker-light.svg" width="49%" alt="Win-Activity-Tracker"></picture></a>&nbsp;<a href="https://github.com/metawka/SuperDictate-win"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-superdictate-win-dark.svg"><img src="assets/project-superdictate-win-light.svg" width="49%" alt="SuperDictate-win"></picture></a>
 
+<a href="https://github.com/metawka/expressive-profile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-expressive-profile-dark.svg"><img src="assets/project-expressive-profile-light.svg" width="49%" alt="expressive-profile"></picture></a>
+
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg"><img src="assets/stats-light.svg" width="100%" alt="GitHub activity"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"><img src="assets/streak-light.svg" width="100%" alt="Streak"></picture>
