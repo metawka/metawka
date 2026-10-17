@@ -137,9 +137,13 @@
    {
     "c": 11,
     "day": 16,
-    "today": true
+    "today": false
    },
-   null
+   {
+    "c": 0,
+    "day": 17,
+    "today": true
+   }
   ]
  ],
  "pins": [
@@ -154,6 +158,21 @@
     "dictation",
     "speech-to-text",
     "windows"
+   ]
+  },
+  {
+   "name": "yandex-music-rpc",
+   "url": "https://github.com/metawka/yandex-music-rpc",
+   "text": "Discord Rich Presence \u0434\u043b\u044f \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u043d\u043e\u0439 \u042f\u043d\u0434\u0435\u043a\u0441 \u041c\u0443\u0437\u044b\u043a\u0438. \u041d\u0430\u0442\u0438\u0432\u043d\u044b\u0439, \u0431\u0435\u0437 \u043f\u0430\u0442\u0447\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u0430",
+   "fork": false,
+   "stars": 0,
+   "language": "Rust",
+   "topics": [
+    "discord-rich-presence",
+    "discord-rpc",
+    "rust",
+    "windows",
+    "yandex-music"
    ]
   },
   {
@@ -172,21 +191,6 @@
     "time-tracker",
     "windows",
     "winui3"
-   ]
-  },
-  {
-   "name": "yandex-music-rpc",
-   "url": "https://github.com/metawka/yandex-music-rpc",
-   "text": "Discord Rich Presence \u0434\u043b\u044f \u0434\u0435\u0441\u043a\u0442\u043e\u043f\u043d\u043e\u0439 \u042f\u043d\u0434\u0435\u043a\u0441 \u041c\u0443\u0437\u044b\u043a\u0438. \u041d\u0430\u0442\u0438\u0432\u043d\u044b\u0439, \u0431\u0435\u0437 \u043f\u0430\u0442\u0447\u0430 \u043a\u043b\u0438\u0435\u043d\u0442\u0430",
-   "fork": false,
-   "stars": 0,
-   "language": "Rust",
-   "topics": [
-    "discord-rich-presence",
-    "discord-rpc",
-    "rust",
-    "windows",
-    "yandex-music"
    ]
   },
   {
