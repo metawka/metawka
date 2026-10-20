@@ -1,9 +1,9 @@
 {
- "key": "8a0ba3e0",
- "stars": 32,
+ "key": "4f80a042",
+ "stars": 38,
  "contributions": 65,
  "repos": 8,
- "followers": 10,
+ "followers": 11,
  "languages": [
   [
    "JavaScript",
@@ -141,7 +141,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 28,
+   "stars": 33,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -223,7 +223,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 28,
+   "stars": 33,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -233,6 +233,15 @@
     "profile-readme",
     "readme-generator"
    ]
+  },
+  {
+   "name": "metawka",
+   "url": "https://github.com/metawka/metawka",
+   "text": "",
+   "fork": false,
+   "stars": 2,
+   "language": "Python",
+   "topics": []
   },
   {
    "name": "711zip",
@@ -251,15 +260,6 @@
     "winui3",
     "zip"
    ]
-  },
-  {
-   "name": "metawka",
-   "url": "https://github.com/metawka/metawka",
-   "text": "",
-   "fork": false,
-   "stars": 1,
-   "language": "Python",
-   "topics": []
   },
   {
    "name": "yandex-music-rpc",
