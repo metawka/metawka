@@ -102,6 +102,10 @@
           {
             "icon": "brand:tailwindcss",
             "label": "Java"
+          },
+          {
+            "icon": "brand:kotlin",
+            "label": "Kotlin"
           }
         ]
       },
@@ -125,7 +129,7 @@
     ]
   },
   "projects": {
-    "source": "manual",
+    "source": "pinned",
     "repos": [
       "expressive-profile",
       "yandex-music-rpc",
