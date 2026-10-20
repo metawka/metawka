@@ -1,9 +1,9 @@
 {
- "key": "4f80a042",
- "stars": 38,
+ "key": "7b428fa7",
+ "stars": 45,
  "contributions": 65,
  "repos": 8,
- "followers": 11,
+ "followers": 12,
  "languages": [
   [
    "JavaScript",
@@ -141,7 +141,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 33,
+   "stars": 39,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -172,7 +172,7 @@
    "url": "https://github.com/metawka/SuperDictate-win",
    "text": "Fast, private, local dictation for Windows.",
    "fork": true,
-   "stars": 0,
+   "stars": 1,
    "language": "Python",
    "topics": [
     "dictation",
@@ -185,7 +185,7 @@
    "url": "https://github.com/metawka/Win-Activity-Tracker",
    "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "C#",
    "topics": [
     "activity-tracker",
@@ -223,7 +223,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 33,
+   "stars": 39,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -277,20 +277,11 @@
    ]
   },
   {
-   "name": "awesome-github-profile-readme",
-   "url": "https://github.com/metawka/awesome-github-profile-readme",
-   "text": "😎 A curated list of awesome GitHub Profile which updates in real time",
-   "fork": true,
-   "stars": 0,
-   "language": null,
-   "topics": []
-  },
-  {
    "name": "Win-Activity-Tracker",
    "url": "https://github.com/metawka/Win-Activity-Tracker",
    "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "C#",
    "topics": [
     "activity-tracker",
@@ -308,13 +299,22 @@
    "url": "https://github.com/metawka/SuperDictate-win",
    "text": "Fast, private, local dictation for Windows.",
    "fork": true,
-   "stars": 0,
+   "stars": 1,
    "language": "Python",
    "topics": [
     "dictation",
     "speech-to-text",
     "windows"
    ]
+  },
+  {
+   "name": "awesome-github-profile-readme",
+   "url": "https://github.com/metawka/awesome-github-profile-readme",
+   "text": "😎 A curated list of awesome GitHub Profile which updates in real time",
+   "fork": true,
+   "stars": 0,
+   "language": null,
+   "topics": []
   },
   {
    "name": "nocturne",
