@@ -1,7 +1,7 @@
 {
- "key": "abd62e9f",
- "stars": 53,
- "contributions": 65,
+ "key": "f82078bb",
+ "stars": 58,
+ "contributions": 67,
  "repos": 8,
  "followers": 15,
  "languages": [
@@ -31,7 +31,7 @@
   ],
   [
    "HTML",
-   727
+   1050
   ]
  ],
  "days": [
@@ -126,7 +126,7 @@
     "today": false
    },
    {
-    "c": 0,
+    "c": 2,
     "day": 21,
     "today": true
    },
@@ -136,7 +136,7 @@
   ]
  ],
  "streak": {
-  "current": 1,
+  "current": 2,
   "longest": 2
  },
  "pins": [
@@ -145,7 +145,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 46,
+   "stars": 50,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -161,7 +161,7 @@
    "url": "https://github.com/metawka/yandex-music-rpc",
    "text": "Discord Rich Presence для десктопной Яндекс Музыки. Нативный, без патча клиента",
    "fork": false,
-   "stars": 1,
+   "stars": 2,
    "language": "Rust",
    "topics": [
     "discord-rich-presence",
@@ -227,7 +227,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 46,
+   "stars": 50,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -248,6 +248,21 @@
    "topics": []
   },
   {
+   "name": "yandex-music-rpc",
+   "url": "https://github.com/metawka/yandex-music-rpc",
+   "text": "Discord Rich Presence для десктопной Яндекс Музыки. Нативный, без патча клиента",
+   "fork": false,
+   "stars": 2,
+   "language": "Rust",
+   "topics": [
+    "discord-rich-presence",
+    "discord-rpc",
+    "rust",
+    "windows",
+    "yandex-music"
+   ]
+  },
+  {
    "name": "711zip",
    "url": "https://github.com/metawka/711zip",
    "text": "Windows 11-style front end for 7-Zip (WinUI 3, light/dark)",
@@ -263,21 +278,6 @@
     "windows",
     "winui3",
     "zip"
-   ]
-  },
-  {
-   "name": "yandex-music-rpc",
-   "url": "https://github.com/metawka/yandex-music-rpc",
-   "text": "Discord Rich Presence для десктопной Яндекс Музыки. Нативный, без патча клиента",
-   "fork": false,
-   "stars": 1,
-   "language": "Rust",
-   "topics": [
-    "discord-rich-presence",
-    "discord-rpc",
-    "rust",
-    "windows",
-    "yandex-music"
    ]
   },
   {
