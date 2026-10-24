@@ -1,13 +1,13 @@
 {
- "key": "5ae34fb7",
- "stars": 89,
- "contributions": 76,
+ "key": "61dec086",
+ "stars": 95,
+ "contributions": 78,
  "repos": 10,
- "followers": 27,
+ "followers": 29,
  "languages": [
   [
    "C++",
-   37011815
+   37035746
   ],
   [
    "JavaScript",
@@ -27,7 +27,7 @@
   ],
   [
    "CMake",
-   218877
+   218933
   ],
   [
    "TypeScript",
@@ -141,7 +141,7 @@
     "today": false
    },
    {
-    "c": 9,
+    "c": 11,
     "day": 24,
     "today": true
    }
@@ -157,7 +157,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 81,
+   "stars": 85,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -173,7 +173,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 0,
+   "stars": 2,
    "language": "C++",
    "topics": []
   },
@@ -248,7 +248,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 81,
+   "stars": 85,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -266,6 +266,15 @@
    "fork": false,
    "stars": 3,
    "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "exteraDesktop",
+   "url": "https://github.com/metawka/exteraDesktop",
+   "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
+   "fork": false,
+   "stars": 2,
+   "language": "C++",
    "topics": []
   },
   {
@@ -337,15 +346,6 @@
    "url": "https://github.com/metawka/lib_ui",
    "text": "GUI controls library.",
    "fork": true,
-   "stars": 0,
-   "language": "C++",
-   "topics": []
-  },
-  {
-   "name": "exteraDesktop",
-   "url": "https://github.com/metawka/exteraDesktop",
-   "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
-   "fork": false,
    "stars": 0,
    "language": "C++",
    "topics": []
