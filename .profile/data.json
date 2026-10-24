@@ -1,9 +1,9 @@
 {
- "key": "54b36ef6",
- "stars": 99,
+ "key": "5ef7df49",
+ "stars": 103,
  "contributions": 78,
  "repos": 10,
- "followers": 29,
+ "followers": 31,
  "languages": [
   [
    "C++",
@@ -173,7 +173,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 6,
+   "stars": 10,
    "language": "C++",
    "topics": []
   },
@@ -264,7 +264,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 6,
+   "stars": 10,
    "language": "C++",
    "topics": []
   },
