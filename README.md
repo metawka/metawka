@@ -8,7 +8,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" width="100%" alt="Tech stack"></picture>
 
-<a href="https://github.com/metawka/expressive-profile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-expressive-profile-dark.svg"><img src="assets/project-expressive-profile-light.svg" width="49%" alt="expressive-profile"></picture></a>&nbsp;<a href="https://github.com/metawka/exteraDesktop"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-exteradesktop-dark.svg"><img src="assets/project-exteradesktop-light.svg" width="49%" alt="exteraDesktop"></picture></a>
+<a href="https://github.com/metawka/expressive-profile"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-expressive-profile-dark.svg"><img src="assets/project-expressive-profile-light.svg" width="49%" alt="expressive-profile"></picture></a>&nbsp;<a href="https://github.com/metawka/exDesktop"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-exdesktop-dark.svg"><img src="assets/project-exdesktop-light.svg" width="49%" alt="exDesktop"></picture></a>
 
 <a href="https://github.com/metawka/yandex-music-rpc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-yandex-music-rpc-dark.svg"><img src="assets/project-yandex-music-rpc-light.svg" width="49%" alt="yandex-music-rpc"></picture></a>&nbsp;<a href="https://github.com/metawka/SuperDictate-win"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-superdictate-win-dark.svg"><img src="assets/project-superdictate-win-light.svg" width="49%" alt="SuperDictate-win"></picture></a>
 
