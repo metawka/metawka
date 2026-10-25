@@ -1,6 +1,6 @@
 {
- "key": "5546ba84",
- "stars": 105,
+ "key": "221715cb",
+ "stars": 115,
  "contributions": 78,
  "repos": 10,
  "followers": 31,
@@ -133,7 +133,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 85,
+   "stars": 86,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -149,7 +149,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 12,
+   "stars": 21,
    "language": "C++",
    "topics": []
   },
@@ -224,7 +224,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 85,
+   "stars": 86,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -240,7 +240,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 12,
+   "stars": 21,
    "language": "C++",
    "topics": []
   },
