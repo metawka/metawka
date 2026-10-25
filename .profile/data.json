@@ -1,6 +1,6 @@
 {
- "key": "5ef7df49",
- "stars": 103,
+ "key": "5546ba84",
+ "stars": 105,
  "contributions": 78,
  "repos": 10,
  "followers": 31,
@@ -35,43 +35,6 @@
   ]
  ],
  "days": [
-  [
-   {
-    "c": 0,
-    "day": 4,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 5,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 6,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 7,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 8,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 9,
-    "today": false
-   },
-   {
-    "c": 0,
-    "day": 10,
-    "today": false
-   }
-  ],
   [
    {
     "c": 0,
@@ -143,8 +106,21 @@
    {
     "c": 11,
     "day": 24,
-    "today": true
+    "today": false
    }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 25,
+    "today": true
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  ],
  "streak": {
@@ -173,7 +149,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 10,
+   "stars": 12,
    "language": "C++",
    "topics": []
   },
@@ -264,7 +240,7 @@
    "url": "https://github.com/metawka/exteraDesktop",
    "text": "exteraGramDesktop unofficial port main repository. Check out what's new — https://telegram.me/DesktopExtera",
    "fork": false,
-   "stars": 10,
+   "stars": 12,
    "language": "C++",
    "topics": []
   },
