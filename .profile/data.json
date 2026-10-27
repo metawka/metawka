@@ -1,6 +1,6 @@
 {
- "key": "260d97b1",
- "stars": 116,
+ "key": "93c572e6",
+ "stars": 118,
  "contributions": 91,
  "repos": 10,
  "followers": 31,
@@ -19,7 +19,7 @@
   ],
   [
    "Python",
-   259656
+   259727
   ],
   [
    "C#",
@@ -157,7 +157,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "Unofficial Windows Telegram Desktop client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 18,
+   "stars": 20,
    "language": "C++",
    "topics": []
   },
@@ -248,7 +248,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "Unofficial Windows Telegram Desktop client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 18,
+   "stars": 20,
    "language": "C++",
    "topics": []
   },
