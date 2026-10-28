@@ -21,7 +21,7 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "",
-    "subtitle": "Frondend developer, some kinda web-designer.\nSometimes few small Windows utilities.",
+    "subtitle": "Frontend developer, some kinda web-designer.\nSometimes few small Windows utilities.",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
