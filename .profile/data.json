@@ -1,6 +1,6 @@
 {
- "key": "fa27f842",
- "stars": 123,
+ "key": "94056c29",
+ "stars": 127,
  "contributions": 98,
  "repos": 11,
  "followers": 31,
@@ -23,7 +23,7 @@
   ],
   [
    "Python",
-   263841
+   264391
   ],
   [
    "C#",
@@ -149,7 +149,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 92,
+   "stars": 95,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -163,9 +163,9 @@
   {
    "name": "exDesktop",
    "url": "https://github.com/metawka/exDesktop",
-   "text": "Unofficial Windows Telegram Desktop client with customization, channel feed and Python plugins.",
+   "text": "Unofficial Cross-Platform Desktop client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 23,
+   "stars": 24,
    "language": "C++",
    "topics": []
   },
@@ -240,7 +240,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 92,
+   "stars": 95,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -254,9 +254,9 @@
   {
    "name": "exDesktop",
    "url": "https://github.com/metawka/exDesktop",
-   "text": "Unofficial Windows Telegram Desktop client with customization, channel feed and Python plugins.",
+   "text": "Unofficial Cross-Platform Desktop client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 23,
+   "stars": 24,
    "language": "C++",
    "topics": []
   },
