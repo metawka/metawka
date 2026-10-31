@@ -1,6 +1,6 @@
 {
- "key": "9d571c96",
- "stars": 140,
+ "key": "ce482594",
+ "stars": 142,
  "contributions": 120,
  "repos": 11,
  "followers": 33,
@@ -173,7 +173,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "Unofficial Cross-Platform Desktop client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 30,
+   "stars": 32,
    "language": "C++",
    "topics": []
   },
@@ -264,7 +264,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "Unofficial Cross-Platform Desktop client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 30,
+   "stars": 32,
    "language": "C++",
    "topics": []
   },
