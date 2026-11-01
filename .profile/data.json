@@ -1,6 +1,6 @@
 {
- "key": "4673275",
- "stars": 151,
+ "key": "54e9634d",
+ "stars": 154,
  "contributions": 121,
  "repos": 11,
  "followers": 35,
@@ -133,7 +133,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 107,
+   "stars": 108,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -186,7 +186,7 @@
    "url": "https://github.com/metawka/Win-Activity-Tracker",
    "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
    "fork": false,
-   "stars": 1,
+   "stars": 2,
    "language": "C#",
    "topics": [
     "activity-tracker",
@@ -224,7 +224,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 107,
+   "stars": 108,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -254,6 +254,20 @@
    "topics": []
   },
   {
+   "name": "funpaylitebot-free",
+   "url": "https://github.com/metawka/funpaylitebot-free",
+   "text": "Бесплатное расширение FunPay Lite Bot с полным функционалом PREMIUM версии тарифа с открытым исходным кодом.",
+   "fork": false,
+   "stars": 2,
+   "language": "JavaScript",
+   "topics": [
+    "fp",
+    "free",
+    "funpay",
+    "funpaylitebot"
+   ]
+  },
+  {
    "name": "yandex-music-rpc",
    "url": "https://github.com/metawka/yandex-music-rpc",
    "text": "Discord Rich Presence для десктопной Яндекс Музыки. Нативный, без патча клиента",
@@ -266,6 +280,24 @@
     "rust",
     "windows",
     "yandex-music"
+   ]
+  },
+  {
+   "name": "Win-Activity-Tracker",
+   "url": "https://github.com/metawka/Win-Activity-Tracker",
+   "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
+   "fork": false,
+   "stars": 2,
+   "language": "C#",
+   "topics": [
+    "activity-tracker",
+    "csharp",
+    "dotnet",
+    "productivity",
+    "screen-time",
+    "time-tracker",
+    "windows",
+    "winui3"
    ]
   },
   {
@@ -284,38 +316,6 @@
     "windows",
     "winui3",
     "zip"
-   ]
-  },
-  {
-   "name": "funpaylitebot-free",
-   "url": "https://github.com/metawka/funpaylitebot-free",
-   "text": "Бесплатное расширение FunPay Lite Bot с полным функционалом PREMIUM версии тарифа с открытым исходным кодом.",
-   "fork": false,
-   "stars": 1,
-   "language": "JavaScript",
-   "topics": [
-    "fp",
-    "free",
-    "funpay",
-    "funpaylitebot"
-   ]
-  },
-  {
-   "name": "Win-Activity-Tracker",
-   "url": "https://github.com/metawka/Win-Activity-Tracker",
-   "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
-   "fork": false,
-   "stars": 1,
-   "language": "C#",
-   "topics": [
-    "activity-tracker",
-    "csharp",
-    "dotnet",
-    "productivity",
-    "screen-time",
-    "time-tracker",
-    "windows",
-    "winui3"
    ]
   },
   {
