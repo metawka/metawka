@@ -21,7 +21,7 @@
   "hero": {
     "greeting": "Hi, I'm",
     "name": "",
-    "subtitle": "Frontend developer, some kinda web-designer.\nSometimes few small Windows utilities.",
+    "subtitle": "Developer, some kinda web and UI designer.\nSometimes few small Windows utilities.",
     "typing": true,
     "avatarShape": "cookie12",
     "chips": [
@@ -73,14 +73,6 @@
           {
             "icon": "brand:python",
             "label": "Python"
-          },
-          {
-            "icon": "brand:rust",
-            "label": "Rust"
-          },
-          {
-            "icon": "widgets",
-            "label": "WinUI"
           }
         ]
       },
@@ -89,23 +81,11 @@
         "items": [
           {
             "icon": "brand:dotnet",
-            "label": "C#"
+            "label": "C# / C++"
           },
           {
             "icon": "brand:electron",
             "label": "Electron"
-          },
-          {
-            "icon": "brand:nextdotjs",
-            "label": "Next.js"
-          },
-          {
-            "icon": "brand:tailwindcss",
-            "label": "Java"
-          },
-          {
-            "icon": "brand:kotlin",
-            "label": "Kotlin"
           }
         ]
       },
