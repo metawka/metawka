@@ -26,12 +26,16 @@
     "avatarShape": "cookie12",
     "chips": [
       {
-        "icon": "location_on",
-        "label": "KZ / Russia"
+        "icon": "brand:typescript",
+        "label": "TypeScript"
       },
       {
-        "icon": "code",
-        "label": "TypeScript · Python · Rust"
+        "icon": "brand:python",
+        "label": "Python"
+      },
+      {
+        "icon": "brand:cplusplus",
+        "label": "C++"
       }
     ]
   },
@@ -80,7 +84,7 @@
         "title": "Also",
         "items": [
           {
-            "icon": "brand:dotnet",
+            "icon": "brand:cplusplus",
             "label": "C# / C++"
           },
           {
