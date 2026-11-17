@@ -1,13 +1,13 @@
 {
- "key": "2a72233d",
- "stars": 212,
- "contributions": 251,
- "repos": 11,
- "followers": 40,
+ "key": "4cb13cd5",
+ "stars": 215,
+ "contributions": 263,
+ "repos": 12,
+ "followers": 42,
  "languages": [
   [
    "C++",
-   41325480
+   41470102
   ],
   [
    "JavaScript",
@@ -15,7 +15,7 @@
   ],
   [
    "Python",
-   975079
+   1407225
   ],
   [
    "CSS",
@@ -27,7 +27,7 @@
   ],
   [
    "CMake",
-   249445
+   249555
   ],
   [
    "C#",
@@ -121,7 +121,7 @@
     "today": false
    },
    {
-    "c": 8,
+    "c": 20,
     "day": 17,
     "today": true
    },
@@ -157,7 +157,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "Unofficial Cross-Platform Desktop Telegram client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 63,
+   "stars": 66,
    "language": "C++",
    "topics": [
     "telegram",
@@ -250,7 +250,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "Unofficial Cross-Platform Desktop Telegram client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 63,
+   "stars": 66,
    "language": "C++",
    "topics": [
     "telegram",
@@ -360,6 +360,15 @@
     "speech-to-text",
     "windows"
    ]
+  },
+  {
+   "name": "codegen",
+   "url": "https://github.com/metawka/codegen",
+   "text": "Code generating utilities.",
+   "fork": true,
+   "stars": 0,
+   "language": "C++",
+   "topics": []
   },
   {
    "name": "lib_ui",
