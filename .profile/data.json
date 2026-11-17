@@ -1,7 +1,7 @@
 {
- "key": "bdcc0115",
- "stars": 210,
- "contributions": 243,
+ "key": "2a72233d",
+ "stars": 212,
+ "contributions": 251,
  "repos": 11,
  "followers": 40,
  "languages": [
@@ -118,9 +118,13 @@
    {
     "c": 5,
     "day": 16,
+    "today": false
+   },
+   {
+    "c": 8,
+    "day": 17,
     "today": true
    },
-   null,
    null,
    null,
    null,
@@ -128,8 +132,8 @@
   ]
  ],
  "streak": {
-  "current": 20,
-  "longest": 20
+  "current": 21,
+  "longest": 21
  },
  "pins": [
   {
@@ -151,9 +155,9 @@
   {
    "name": "exDesktop",
    "url": "https://github.com/metawka/exDesktop",
-   "text": "Unofficial Cross-Platform Desktop client with customization, channel feed and Python plugins.",
+   "text": "Unofficial Cross-Platform Desktop Telegram client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 62,
+   "stars": 63,
    "language": "C++",
    "topics": [
     "telegram",
@@ -212,7 +216,7 @@
    "url": "https://github.com/metawka/tg-bot-ultra-skill",
    "text": "Claude Code skill for building Telegram bots on Bot API 10.x rich messages, with a BotFather MCP server",
    "fork": false,
-   "stars": 0,
+   "stars": 1,
    "language": "Python",
    "topics": [
     "ai",
@@ -244,9 +248,9 @@
   {
    "name": "exDesktop",
    "url": "https://github.com/metawka/exDesktop",
-   "text": "Unofficial Cross-Platform Desktop client with customization, channel feed and Python plugins.",
+   "text": "Unofficial Cross-Platform Desktop Telegram client with customization, channel feed and Python plugins.",
    "fork": false,
-   "stars": 62,
+   "stars": 63,
    "language": "C++",
    "topics": [
     "telegram",
@@ -329,6 +333,22 @@
    ]
   },
   {
+   "name": "tg-bot-ultra-skill",
+   "url": "https://github.com/metawka/tg-bot-ultra-skill",
+   "text": "Claude Code skill for building Telegram bots on Bot API 10.x rich messages, with a BotFather MCP server",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "claude-code",
+    "mcp",
+    "skill",
+    "telegram",
+    "telegram-bots"
+   ]
+  },
+  {
    "name": "SuperDictate-win",
    "url": "https://github.com/metawka/SuperDictate-win",
    "text": "Fast, private, local dictation for Windows.",
@@ -339,22 +359,6 @@
     "dictation",
     "speech-to-text",
     "windows"
-   ]
-  },
-  {
-   "name": "tg-bot-ultra-skill",
-   "url": "https://github.com/metawka/tg-bot-ultra-skill",
-   "text": "Claude Code skill for building Telegram bots on Bot API 10.x rich messages, with a BotFather MCP server",
-   "fork": false,
-   "stars": 0,
-   "language": "Python",
-   "topics": [
-    "ai",
-    "claude-code",
-    "mcp",
-    "skill",
-    "telegram",
-    "telegram-bots"
    ]
   },
   {
