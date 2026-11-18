@@ -1,9 +1,9 @@
 {
- "key": "fa63fc0a",
- "stars": 220,
- "contributions": 266,
- "repos": 12,
- "followers": 43,
+ "key": "e75d6239",
+ "stars": 225,
+ "contributions": 267,
+ "repos": 11,
+ "followers": 44,
  "languages": [
   [
    "C++",
@@ -126,7 +126,7 @@
     "today": false
    },
    {
-    "c": 2,
+    "c": 4,
     "day": 18,
     "today": true
    },
@@ -161,7 +161,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "exDesktop – Модифицированный кросс-платформенный клиент Telegram Desktop с расширенными возможностями кастомизация, Material Expressive дизайном, лентой каналов, функциями AyuGram и плагинами.",
    "fork": false,
-   "stars": 67,
+   "stars": 71,
    "language": "C++",
    "topics": [
     "telegram",
@@ -220,7 +220,7 @@
    "url": "https://github.com/metawka/tg-bot-ultra-skill",
    "text": "Claude Code skill for building Telegram bots on Bot API 10.x rich messages, with a BotFather MCP server",
    "fork": false,
-   "stars": 2,
+   "stars": 3,
    "language": "Python",
    "topics": [
     "ai",
@@ -254,12 +254,28 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "exDesktop – Модифицированный кросс-платформенный клиент Telegram Desktop с расширенными возможностями кастомизация, Material Expressive дизайном, лентой каналов, функциями AyuGram и плагинами.",
    "fork": false,
-   "stars": 67,
+   "stars": 71,
    "language": "C++",
    "topics": [
     "telegram",
     "telegram-client",
     "exdesktop"
+   ]
+  },
+  {
+   "name": "tg-bot-ultra-skill",
+   "url": "https://github.com/metawka/tg-bot-ultra-skill",
+   "text": "Claude Code skill for building Telegram bots on Bot API 10.x rich messages, with a BotFather MCP server",
+   "fork": false,
+   "stars": 3,
+   "language": "Python",
+   "topics": [
+    "ai",
+    "claude-code",
+    "mcp",
+    "skill",
+    "telegram",
+    "telegram-bots"
    ]
   },
   {
@@ -270,22 +286,6 @@
    "stars": 3,
    "language": "Python",
    "topics": []
-  },
-  {
-   "name": "tg-bot-ultra-skill",
-   "url": "https://github.com/metawka/tg-bot-ultra-skill",
-   "text": "Claude Code skill for building Telegram bots on Bot API 10.x rich messages, with a BotFather MCP server",
-   "fork": false,
-   "stars": 2,
-   "language": "Python",
-   "topics": [
-    "ai",
-    "claude-code",
-    "mcp",
-    "skill",
-    "telegram",
-    "telegram-bots"
-   ]
   },
   {
    "name": "funpaylitebot-free",
@@ -381,15 +381,6 @@
    "fork": true,
    "stars": 0,
    "language": "C++",
-   "topics": []
-  },
-  {
-   "name": "awesome-github-profile-readme",
-   "url": "https://github.com/metawka/awesome-github-profile-readme",
-   "text": "😎 A curated list of awesome GitHub Profile which updates in real time",
-   "fork": true,
-   "stars": 0,
-   "language": null,
    "topics": []
   }
  ]
