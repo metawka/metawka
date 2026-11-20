@@ -1,7 +1,7 @@
 {
- "key": "dc66d84d",
- "stars": 228,
- "contributions": 271,
+ "key": "5a20cd2",
+ "stars": 230,
+ "contributions": 276,
  "repos": 11,
  "followers": 45,
  "languages": [
@@ -136,7 +136,7 @@
     "today": false
    },
    {
-    "c": 1,
+    "c": 6,
     "day": 20,
     "today": true
    },
@@ -210,7 +210,7 @@
    "url": "https://github.com/metawka/Win-Activity-Tracker",
    "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
    "fork": false,
-   "stars": 2,
+   "stars": 3,
    "language": "C#",
    "topics": [
     "activity-tracker",
@@ -296,6 +296,42 @@
    "topics": []
   },
   {
+   "name": "Win-Activity-Tracker",
+   "url": "https://github.com/metawka/Win-Activity-Tracker",
+   "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
+   "fork": false,
+   "stars": 3,
+   "language": "C#",
+   "topics": [
+    "activity-tracker",
+    "csharp",
+    "dotnet",
+    "productivity",
+    "screen-time",
+    "time-tracker",
+    "windows",
+    "winui3"
+   ]
+  },
+  {
+   "name": "711zip",
+   "url": "https://github.com/metawka/711zip",
+   "text": "Windows 11-style front end for 7-Zip (WinUI 3, light/dark)",
+   "fork": false,
+   "stars": 3,
+   "language": "C#",
+   "topics": [
+    "7z",
+    "7zip",
+    "archives",
+    "dotnet",
+    "win11",
+    "windows",
+    "winui3",
+    "zip"
+   ]
+  },
+  {
    "name": "funpaylitebot-free",
    "url": "https://github.com/metawka/funpaylitebot-free",
    "text": "Бесплатное расширение FunPay Lite Bot с полным функционалом PREMIUM версии тарифа с открытым исходным кодом.",
@@ -322,42 +358,6 @@
     "rust",
     "windows",
     "yandex-music"
-   ]
-  },
-  {
-   "name": "Win-Activity-Tracker",
-   "url": "https://github.com/metawka/Win-Activity-Tracker",
-   "text": "Local screen time tracker for Windows with a Task Manager style dashboard. No account, no telemetry.",
-   "fork": false,
-   "stars": 2,
-   "language": "C#",
-   "topics": [
-    "activity-tracker",
-    "csharp",
-    "dotnet",
-    "productivity",
-    "screen-time",
-    "time-tracker",
-    "windows",
-    "winui3"
-   ]
-  },
-  {
-   "name": "711zip",
-   "url": "https://github.com/metawka/711zip",
-   "text": "Windows 11-style front end for 7-Zip (WinUI 3, light/dark)",
-   "fork": false,
-   "stars": 2,
-   "language": "C#",
-   "topics": [
-    "7z",
-    "7zip",
-    "archives",
-    "dotnet",
-    "win11",
-    "windows",
-    "winui3",
-    "zip"
    ]
   },
   {
