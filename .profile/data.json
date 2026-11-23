@@ -1,9 +1,9 @@
 {
- "key": "6a29cd68",
- "stars": 240,
- "contributions": 309,
+ "key": "8132f705",
+ "stars": 241,
+ "contributions": 311,
  "repos": 11,
- "followers": 48,
+ "followers": 49,
  "languages": [
   [
    "C++",
@@ -116,7 +116,7 @@
     "today": false
    },
    {
-    "c": 0,
+    "c": 2,
     "day": 23,
     "today": true
    },
@@ -128,26 +128,10 @@
   ]
  ],
  "streak": {
-  "current": 26,
-  "longest": 26
+  "current": 27,
+  "longest": 27
  },
  "pins": [
-  {
-   "name": "expressive-profile",
-   "url": "https://github.com/metawka/expressive-profile",
-   "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
-   "fork": false,
-   "stars": 147,
-   "language": "JavaScript",
-   "topics": [
-    "github-actions",
-    "github-profile",
-    "material-design",
-    "material-you",
-    "profile-readme",
-    "readme-generator"
-   ]
-  },
   {
    "name": "exDesktop",
    "url": "https://github.com/metawka/exDesktop",
@@ -159,6 +143,22 @@
     "telegram",
     "telegram-client",
     "exdesktop"
+   ]
+  },
+  {
+   "name": "expressive-profile",
+   "url": "https://github.com/metawka/expressive-profile",
+   "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
+   "fork": false,
+   "stars": 148,
+   "language": "JavaScript",
+   "topics": [
+    "github-actions",
+    "github-profile",
+    "material-design",
+    "material-you",
+    "profile-readme",
+    "readme-generator"
    ]
   },
   {
@@ -230,7 +230,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 147,
+   "stars": 148,
    "language": "JavaScript",
    "topics": [
     "github-actions",
