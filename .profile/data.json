@@ -1,9 +1,9 @@
 {
- "key": "e59d290b",
- "stars": 252,
- "contributions": 319,
+ "key": "15c6a632",
+ "stars": 255,
+ "contributions": 324,
  "repos": 11,
- "followers": 49,
+ "followers": 50,
  "languages": [
   [
    "C++",
@@ -126,7 +126,7 @@
     "today": false
    },
    {
-    "c": 1,
+    "c": 6,
     "day": 25,
     "today": true
    },
@@ -145,7 +145,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "exDesktop – Модифицированный кросс-платформенный клиент Telegram Desktop с расширенными возможностями кастомизация, Material Expressive дизайном, лентой каналов, функциями AyuGram и плагинами.",
    "fork": false,
-   "stars": 82,
+   "stars": 85,
    "language": "C++",
    "topics": [
     "telegram",
@@ -254,7 +254,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "exDesktop – Модифицированный кросс-платформенный клиент Telegram Desktop с расширенными возможностями кастомизация, Material Expressive дизайном, лентой каналов, функциями AyuGram и плагинами.",
    "fork": false,
-   "stars": 82,
+   "stars": 85,
    "language": "C++",
    "topics": [
     "telegram",
