@@ -1,9 +1,9 @@
 {
- "key": "6897734d",
- "stars": 256,
- "contributions": 329,
+ "key": "65572718",
+ "stars": 257,
+ "contributions": 330,
  "repos": 11,
- "followers": 50,
+ "followers": 51,
  "languages": [
   [
    "C++",
@@ -133,15 +133,19 @@
    {
     "c": 3,
     "day": 26,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 27,
     "today": true
    },
-   null,
    null
   ]
  ],
  "streak": {
-  "current": 30,
-  "longest": 30
+  "current": 31,
+  "longest": 31
  },
  "pins": [
   {
@@ -149,7 +153,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "exDesktop – Модифицированный кросс-платформенный клиент Telegram Desktop с расширенными возможностями кастомизация, Material Expressive дизайном, лентой каналов, функциями AyuGram и плагинами.",
    "fork": false,
-   "stars": 85,
+   "stars": 84,
    "language": "C++",
    "topics": [
     "telegram",
@@ -162,7 +166,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 155,
+   "stars": 157,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -242,7 +246,7 @@
    "url": "https://github.com/metawka/expressive-profile",
    "text": "Material 3 Expressive profile README generator for GitHub with daily auto-updates",
    "fork": false,
-   "stars": 155,
+   "stars": 157,
    "language": "JavaScript",
    "topics": [
     "github-actions",
@@ -258,7 +262,7 @@
    "url": "https://github.com/metawka/exDesktop",
    "text": "exDesktop – Модифицированный кросс-платформенный клиент Telegram Desktop с расширенными возможностями кастомизация, Material Expressive дизайном, лентой каналов, функциями AyuGram и плагинами.",
    "fork": false,
-   "stars": 85,
+   "stars": 84,
    "language": "C++",
    "topics": [
     "telegram",
